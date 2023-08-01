@@ -1,0 +1,29 @@
+.quote {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  .quote_author {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .quote_text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  .quote_delete {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #f00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
